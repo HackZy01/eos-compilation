@@ -6,9 +6,9 @@ iso will be in directory where is install script something like this: Elementary
 
 to run this sript do:
 
-sudo chmod +x compile.sh
+sudo chmod +x compile_elementary.sh
 
-./compile.sh
+./compile_elementary.sh
 
 
 
