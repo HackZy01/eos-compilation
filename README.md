@@ -4,6 +4,7 @@ This is .sh script that will compile Elementary OS 6 iso for you
 iso will be in directory where is install script something like this: Elementary-OS-compile-script/os/build
 
 to run this sript do:
+
 sudo chmod +x compile.sh
 ./compile.sh
 
