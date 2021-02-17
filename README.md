@@ -13,4 +13,5 @@ sudo chmod +x compile.sh
 
 
 script will install docker and docker.io.
+
 Elementary OS 6 iso will take somewhere beetwen 2.5gb.
