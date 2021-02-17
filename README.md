@@ -1,6 +1,7 @@
 # Elementary-OS-6-compile-script
 This is .sh script that will compile Elementary OS 6 iso for you
 
+This script was tested only on Ubuntu and Debian based distros!
 
 iso will be in directory where is install script something like this: Elementary-OS-compile-script/os/build
 
