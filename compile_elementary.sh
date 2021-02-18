@@ -1,6 +1,8 @@
 #git clone the eos git
 git clone https://github.com/elementary/os.git && cd os
 
+#update
+sudo apt update && sudo apt upgrade
 
 #let's install docker and docker.io
 sudo apt install docker docker.io
