@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #git clone the eos git
 git clone https://github.com/elementary/os.git && cd os
 
