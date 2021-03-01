@@ -1,4 +1,7 @@
 #!/bin/bash
+
+clear
+
 echo "warning this is macOS version of install script that wasn't tested by me, it is in test state"
 
 # checking if docker is installed:
