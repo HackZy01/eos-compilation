@@ -23,4 +23,4 @@ macOS version requeirements:
     2010 or newer, with Intel’s hardware Memory Management Unit (MMU).
     at least OS X 10.10 El Capitane. (macOS High Sierra and higher are recommended)
     At least 4 GB of RAM.
-    install docker from docker.dmg
+    install docker from here: https://www.docker.com/products/docker-desktop
