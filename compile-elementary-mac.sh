@@ -4,7 +4,7 @@ echo "warning this is macOS version of install script that wasn't tested by me, 
 # checking if docker is installed:
 # coming soon... ¯\_(ツ)_/¯
 
-echo "just a reminder install docker from docker.dmg (click on it and run docker.app) before running this"
+echo "just a reminder install docker from https://www.docker.com/products/docker-desktop before running this"
 
 # just a git clone
 git clone https://github.com/elementary/os && cd os
