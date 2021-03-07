@@ -8,14 +8,17 @@ sudo apt install software-properties-common
 #just to be sure fresh installed systems can use git
 sudo apt install git
 
-#git clone the eos git
-git clone https://github.com/elementary/os.git && cd os
+#let's install docker and docker.io
+sudo apt install docker docker.io
 
 #update
 sudo apt update && sudo apt upgrade
 
-#let's install docker and docker.io
-sudo apt install docker docker.io
+#git clone the eos git
+git clone https://github.com/elementary/os.git
+
+#go to it's directory
+cd os
 
 #now let's compile this iso
 sudo docker run --privileged -i -v /proc:/proc \
