@@ -16,7 +16,7 @@ sudo chmod +x compile_elementary.sh
 
 Elementary OS 6 iso will take somewhere beetwen 2.5gb.
 
-iso will be in directory where is install script something like this: Elementary-OS-compile-script/os/builds/<architecture name>/elementaryos-6.0-daily.<date>.iso
+iso will be in directory where is install script something like this: Elementary-OS-compile-script/os/builds/[architecture name]/elementaryos-6.0-daily.[date].iso
     
 script will install docker and docker.io.
 
