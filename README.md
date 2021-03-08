@@ -2,7 +2,7 @@
 This is .sh script that will compile Elementary OS 6 iso for you
 This script works only on Ubuntu and Debian based distros! Tested on Elementary OS, Zorin OS 15, Linux Mint Debian Edition. Mac version wasn't tested, be aware
 
-to run this sript do (Linux and macOS terminal in the same directory as script):
+to run this sript do (terminal in the same directory as script):
 
 sudo chmod +x compile_elementary.sh
 
@@ -18,6 +18,7 @@ Elementary-OS-compile-script/os/builds/(architecture name)/elementaryos-6.0-dail
     
 script will install docker and docker.io.
 
+![Elementary OS Logo](https://github.com/HackZy01/Elementary-OS-6-compile-script/blob/main/images/elementary_logo.png)
 
 macOS alpha version requeirements:
 
