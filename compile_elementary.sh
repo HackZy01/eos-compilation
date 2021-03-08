@@ -14,6 +14,9 @@ sudo apt install docker docker.io
 #update
 sudo apt update && sudo apt upgrade
 
+#idk just it
+sudo apt --fix-broken install
+
 #git clone the eos git
 git clone https://github.com/elementary/os.git
 
