@@ -18,7 +18,7 @@ Elementary OS 6 iso will take somewhere beetwen 2.5gb.
 script will install docker and docker.io.
 
 
-macOS testing version requeirements:
+macOS alpha version requeirements:
 
     2010 or newer, with Intel’s hardware Memory Management Unit (MMU).
     at least OS X 10.10 El Capitane. (macOS High Sierra and higher are recommended)
