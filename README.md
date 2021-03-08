@@ -2,8 +2,6 @@
 This is .sh script that will compile Elementary OS 6 iso for you
 This script works only on Ubuntu and Debian based distros! Tested on Elementary OS, Zorin OS 15, Linux Mint Debian Edition. Mac version wasn't tested, be aware
 
-![elementary os logo](thttps://raw.githubusercontent.com/HackZy01/stuff/blob/main/compile_elementary_images/elementary_logo.png)
-
 (windows version is being considered) (macOS version is in very early state be aware of that it may not work)
 
 
