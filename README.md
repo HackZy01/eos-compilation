@@ -4,7 +4,7 @@ This script works only on Ubuntu and Debian based distros! Tested on Elementary 
 
 (windows version is being considered) (macOS version is in very early state be aware of that it may not work)
 
-iso will be in directory where is install script something like this: Elementary-OS-compile-script/os/build
+
 
 to run this sript do (Linux and macOS terminal in the same directory as script):
 
@@ -15,9 +15,8 @@ sudo chmod +x compile_elementary.sh
 
 
 Elementary OS 6 iso will take somewhere beetwen 2.5gb.
+iso will be in directory where is install script something like this: Elementary-OS-compile-script/os/builds/<architecture name>/elementaryos-6.0-daily.<date>.iso
 script will install docker and docker.io.
-
-
 macOS alpha version requeirements:
 
     2010 or newer, with Intel’s hardware Memory Management Unit (MMU).
