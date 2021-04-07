@@ -20,9 +20,4 @@ script will install docker and docker.io.
 
 ![Elementary OS Logo](https://github.com/HackZy01/Elementary-OS-6-compile-script/blob/main/images/elementary_logo.png)
 
-macOS alpha version requeirements:
-
-    2010 or newer, with Intel’s hardware Memory Management Unit (MMU).
-    at least OS X 10.10 El Capitane. (macOS High Sierra and higher are recommended)
-    At least 4 GB of RAM.
-    install docker from: https://www.docker.com/products/docker-desktop
+macOS version isn't actively worked on, I recommend using Linux version
