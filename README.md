@@ -1,4 +1,6 @@
 # Elementary-OS-6-compile-script
+![Elementary OS 6 Logo](https://github.com/HackZy01/Elementary-OS-compile-script/blob/main/images/eOS-6-Logo.png)
+
 Elementary OS 6 is in Early Acess so it may contain bugs or crash sometimes. I have daily driven eOS6 and it was fine, but it may differ on your device.
 
 This is .sh script that will compile Elementary OS 6 iso for you
@@ -32,7 +34,5 @@ iso should be located in directory like this:
 - Git
 
 don't worry they will be installed while running script.
-
-![Elementary OS 6 Logo](https://github.com/HackZy01/Elementary-OS-compile-script/blob/main/images/eOS-6-Logo.png)
 
 *macOS version isn't actively worked on so it may not work*
