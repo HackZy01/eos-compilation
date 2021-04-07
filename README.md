@@ -12,7 +12,8 @@ Arch based distros: EndeavourOS
 
 to run this sript do (terminal in the same directory as script):
 
-```sudo chmod +x compile_elementary_(distro or it's base).sh
+```
+sudo chmod +x compile_elementary_(distro or it's base).sh
 
 ./compile_elementary_(distro or it's base).sh
 ```
