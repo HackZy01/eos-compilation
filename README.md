@@ -2,9 +2,9 @@
 This is .sh script that will compile Elementary OS 6 iso for you
 This script works only on Ubuntu and Debian and Arch based distros! 
 
-Tested on
+Tested on:
 
-Debian based distros; Elementary OS, Zorin OS 15, Linux Mint Debian Edition,
+Debian based distros: Elementary OS, Zorin OS 15, Linux Mint Debian Edition,
 Arch based distros: EndeavourOS
 
 to run this sript do (terminal in the same directory as script):
