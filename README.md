@@ -4,20 +4,28 @@ This script works only on Ubuntu and Debian based distros! Tested on Elementary 
 
 to run this sript do (terminal in the same directory as script):
 
-sudo chmod +x compile_elementary.sh
+sudo chmod +x compile_elementary_(distro or it's base).sh
 
-./compile_elementary.sh
+./compile_elementary_(distro or it's base).sh
 
 
 
 Elementary OS 6 iso will take somewhere beetwen 2.5gb, be aware that it will take more in process of building.
 
-iso should be in directory where is install script located. example:
+iso should be located in directory like this:
 
-Elementary-OS-compile-script/os/builds/(architecture name)/elementaryos-6.0-daily.(date).iso
+/os/builds/(architecture name)/elementaryos-6.0-daily.(date).iso
     
-script will install docker and docker.io.
+#dependiencies
+don't worry they will be installed while running script
+
+Docker and Docker.io
+this is tool for compiling it
+
+Git
+for git cloning of course ;)
+
 
 ![Elementary OS Logo](https://github.com/HackZy01/Elementary-OS-6-compile-script/blob/main/images/elementary_logo.png)
 
-macOS version isn't actively worked on, I recommend using Linux version
+macOS version isn't actively worked on
