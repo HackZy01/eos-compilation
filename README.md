@@ -33,6 +33,6 @@ iso should be located in directory like this:
 
 don't worry they will be installed while running script.
 
-![Elementary OS Logo](https://github.com/HackZy01/Elementary-OS-6-compile-script/blob/main/images/elementary_logo.png)
+![Elementary OS 6 Logo](https://github.com/HackZy01/Elementary-OS-compile-script/blob/main/images/eOS-6-Logo.png)
 
 *macOS version isn't actively worked on so it may not work*
