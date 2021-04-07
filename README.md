@@ -16,7 +16,7 @@ iso should be located in directory like this:
 
 /os/builds/(architecture name)/elementaryos-6.0-daily.(date).iso
     
-#dependiencies
+# dependiencies
 don't worry they will be installed while running script
 
 Docker and Docker.io
