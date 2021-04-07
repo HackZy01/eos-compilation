@@ -30,4 +30,4 @@ sudo docker run --privileged -i -v /proc:/proc \
     debian:latest \
     /bin/bash -s etc/terraform-daily-6.0-azure.conf < build.sh
 
-echo done, terminal is now yours
+echo "done, terminal is now yours"
