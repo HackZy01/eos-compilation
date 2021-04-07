@@ -9,23 +9,21 @@ sudo chmod +x compile_elementary_(distro or it's base).sh
 ./compile_elementary_(distro or it's base).sh
 
 
-
+# iso
 Elementary OS 6 iso will take somewhere beetwen 2.5gb, be aware that it will take more in process of building.
 
 iso should be located in directory like this:
 
+
 /os/builds/(architecture name)/elementaryos-6.0-daily.(date).iso
     
 # dependiencies
-don't worry they will be installed while running script
 
 Docker and Docker.io
-this is tool for compiling it
-
 Git
-for git cloning of course ;)
 
+don't worry they will be installed while running script.
 
 ![Elementary OS Logo](https://github.com/HackZy01/Elementary-OS-6-compile-script/blob/main/images/elementary_logo.png)
 
-macOS version isn't actively worked on
+*macOS version isn't actively worked on so it may not work*
