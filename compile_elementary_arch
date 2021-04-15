@@ -3,13 +3,14 @@ Echo hello
 # is it arch?
 if [[ $(which pacman == "" ]];
 then
-  echo "Pacman wasn’t found, are you sure you are running it on Arch or distros based on it?”
+  echo "Pacman wasn’t found, your arch install may be corrupted, because Pacman is deafult package manager in Arch 
+Linux”
   exit
 
 # XDG
 if [[ $(which xdg == "" ]];
 then
-  echo "xdg wasn’t found so installing it”
+  echo "xdg wasn’t found, installing it”
   sudo pacman -S xdg
 
 # let’s prepare dependencies 
