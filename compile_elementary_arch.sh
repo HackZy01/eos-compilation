@@ -1,21 +1,20 @@
 echo "hello"
 
-# let’s prepare dependencies 
+#let’s prepare dependencies 
 ## Git
 sudo pacman -S git
-
 ## Docker
 sudo pacman -S docker
 
 echo "dependencies are installed, preparing next step"
 
-# let me just git clone code from elementary os GitHub 
+#let me just git clone code from elementary os GitHub 
 git clone https://github.com/elementary/os.git
 
-# starting docker
+#starting docker
 sudo systemctl start docker
 
-# compiling process
+#compiling process
 echo starting compile process
 
 sudo docker run --privileged -i -v /proc:/proc \
