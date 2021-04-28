@@ -1,10 +1,8 @@
 echo "hello"
 
 #let’s prepare dependencies 
-## Git
-sudo pacman -S git
-## Docker
-sudo pacman -S docker
+## Git and docker
+sudo pacman -S git docker
 
 echo "dependencies are installed, preparing next step"
 
