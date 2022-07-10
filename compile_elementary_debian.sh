@@ -28,6 +28,7 @@ sudo docker run --privileged -i -v /proc:/proc \
     -v ${PWD}:/working_dir \
     -w /working_dir \
     debian:latest \
-    /bin/bash -s etc/terraform-daily-6.0-azure.conf < build.sh
+    /bin/bash -s etc/terraform-stable-azure.conf < build.sh
 
+clear
 echo "done, terminal is now yours"
