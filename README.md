@@ -1,9 +1,7 @@
 # Elementary-OS-6-compile-script
 ![Elementary OS 6 Logo](https://github.com/HackZy01/Elementary-OS-compile-script/blob/main/images/eOS-6-Logo.png)
 
-Elementary OS 6 is in Early Acess so it may contain bugs or crash sometimes. I have daily driven eOS6 and it was fine, but it may differ on your device.
-
-This is .sh script that will compile Elementary OS 6 iso for you
+This is .sh script that will compile Elementary OS 6.1 iso for you
 This script works only on Ubuntu and Debian and Arch based distros! 
 
 
@@ -26,7 +24,7 @@ Elementary OS 6 iso will take somewhere beetwen 2.5gb, be aware that it will tak
 
 iso should be located in directory like this:
 
-/os/builds/(architecture name)/elementaryos-6.0-daily.(date).iso
+/os/builds/(architecture name)/elementaryos-<version>.<date>.iso
     
 # dependiencies
 
