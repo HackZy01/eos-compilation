@@ -1,8 +1,8 @@
-# Elementary OS 6.1 compile-script
+# Elementary OS compile script
 ![Elementary OS 6 Logo](https://github.com/HackZy01/Elementary-OS-compile-script/blob/main/images/eOS-6-Logo.png)
 
-This is .sh script that will compile Elementary OS 6.1 iso for you
-This script works only on Ubuntu and Debian and Arch based distros! 
+This is .sh script that will compile Elementary OS iso of your choice
+This script doesnt't work on Fedora! 
 
 
 - Tested on:
