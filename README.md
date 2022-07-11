@@ -1,5 +1,6 @@
 # Elementary OS compile script
-<img src=https://github.com/HackZy01/Elementary-OS-compile-script/blob/main/images/eOS_6.1_logo.png  width="200" height="201">
+<img src=https://github.com/HackZy01/Elementary-OS-compile-script/blob/main/images/eOS_6.1_logo.png  width="200" height="201">  <img src=https://github.com/HackZy01/Elementary-OS-compile-script/blob/main/images/desktop.jpg  width="420" height="240"> 
+
 
 This is .sh script that will compile Elementary OS iso of your choice
 
