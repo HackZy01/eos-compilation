@@ -1,13 +1,15 @@
 # Elementary OS compile script
-<img src=https://github.com/HackZy01/Elementary-OS-compile-script/blob/main/images/eOS_6.1_logo.png  width="200" height="201">  <img src=https://github.com/HackZy01/Elementary-OS-compile-script/blob/main/images/desktop.png  width="420" height="240"> 
+<img src=https://github.com/HackZy01/Images/blob/main/eOS_6.1.png  width="250" height="251">  <img src=https://github.com/HackZy01/Images/blob/main/desktop.png  width="420" height="240"> 
 
 
 This is .sh script that will compile Elementary OS iso of your choice, don't need to worry about anything it just installs everything it needs by itself and gives you a user friendly menu
 
+<img src=https://github.com/HackZy01/Images/blob/main/eos-compile-screenshot.png width="496" height="372">
+
 This script doesnt't work on Fedora! It might not function properly on arch as it's an outdated versiom
 
 # Note
-as of 11.07.2022 Elementary OS 7 Horus isn't ready for usage yet
+as of 11.07.2022 Elementary OS 7 Horus isn't recommended for daily usage yet
 
 # Distros
 Tested on:
