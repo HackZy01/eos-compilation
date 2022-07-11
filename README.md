@@ -1,5 +1,5 @@
 # Elementary OS compile script
-![Elementary OS 6 Logo](https://github.com/HackZy01/Elementary-OS-compile-script/blob/main/images/elementary_logo.png)
+![Elementary OS 6 Logo](https://github.com/HackZy01/Elementary-OS-compile-script/blob/main/images/eOS_6.1_logo.png)
 
 This is .sh script that will compile Elementary OS iso of your choice
 This script doesnt't work on Fedora! 
@@ -32,5 +32,3 @@ iso should be located in directory like this:
 - Git
 
 don't worry they will be installed while running script.
-
-*macOS version isn't actively worked on so it may not work*
