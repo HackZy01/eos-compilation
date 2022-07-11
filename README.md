@@ -4,7 +4,10 @@
 This is .sh script that will compile Elementary OS iso of your choice
 This script doesnt't work on Fedora! 
 
+#Note
+as of 11.07.2022 Elementary OS 7 Horus isn't ready for usage yet
 
+#Distros
 - Tested on:
 
 Debian based distros: Elementary OS, Zorin OS 15, Linux Mint Debian Edition,
