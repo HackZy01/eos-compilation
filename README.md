@@ -1,5 +1,5 @@
 # Elementary OS compile script
-![Elementary OS 6 Logo](https://github.com/HackZy01/Elementary-OS-compile-script/blob/main/images/eOS-6-Logo.png)
+![Elementary OS 6 Logo](https://github.com/HackZy01/Elementary-OS-compile-script/blob/main/images/elementary_logo.png)
 
 This is .sh script that will compile Elementary OS iso of your choice
 This script doesnt't work on Fedora! 
