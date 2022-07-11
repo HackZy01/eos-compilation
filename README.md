@@ -29,7 +29,7 @@ sudo chmod +x compile_elementary_(distro or it's base).sh
 
 iso should be located in directory like this:
 
-/os/builds/(architecture name)/elementaryos-<version>.<date>.iso
+/os/builds/[architecture name]/elementaryos-[version].[date].iso
     
 # Dependiencies
 
