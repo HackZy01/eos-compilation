@@ -8,16 +8,18 @@
 
 This is .sh script that will compile Elementary OS iso of your choice, don't need to worry about anything it just installs everything it needs by itself and gives you a user friendly menu
 
-<img src="https://github.com/HackZy01/Images/blob/main/eos-compile-screenshot.png" width="496" height="372">
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/HackZy01/Images/blob/main/eos-compile-screenshot-dark.png" width="415" height="290">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/HackZy01/Images/blob/main/eos-compile-screenshot-light.png" width="347" height="222">
+    <img src="https://github.com/HackZy01/Images/blob/main/eos-compile-screenshot.png" width="542" height="410">
+  </picture>
 
-This script doesnt't work on Fedora! It might not function properly on arch as it's an outdated versiom
+This script doesnt't work on Fedora! It might not function properly on arch as it's a very outdated versiom
 
 # Note
 as of 11.07.2022 Elementary OS 7 Horus isn't recommended for daily usage yet
 
-# Distros
-Tested on:
-
+# Tested on:
 - Debian based distros: Elementary OS Zorin OS 15 and Linux Mint
 
 # Update info
