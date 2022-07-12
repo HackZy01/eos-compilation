@@ -7,8 +7,12 @@
 
 
 This is .sh script that will compile Elementary OS iso of your choice, don't need to worry about anything it just installs everything it needs by itself and gives you a user friendly menu
+<picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/HackZy01/Images/blob/main/eos-compile-screenshot.png" width="347" height="222">
+   <source media="(prefers-color-scheme: light)" srcset="https://github.com/HackZy01/Images/blob/main/eos-compile-screenshot-light.png" width="347" height="222">
+   <img src="https://github.com/HackZy01/Images/blob/main/eos-compile-screenshot.png" width="496" height="372">
+ </picture>
 
-<img src=https://github.com/HackZy01/Images/blob/main/eos-compile-screenshot.png width="496" height="372">
 
 This script doesnt't work on Fedora! It might not function properly on arch as it's an outdated versiom
 
