@@ -1,5 +1,9 @@
 # Elementary OS compile script
-<img src=https://github.com/HackZy01/Images/blob/main/eOS_6.1.png  width="250" height="251">  <img src=https://github.com/HackZy01/Images/blob/main/desktop.png  width="420" height="240"> 
+<img src=https://github.com/HackZy01/Images/blob/main/eOS_6.1.png  width="250" height="251"> <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/HackZy01/Images/blob/main/desktop-dark.png" width="420" height="240">
+   <source media="(prefers-color-scheme: light)" srcset="https://github.com/HackZy01/Images/blob/main/desktop-light.png" width="420" height="240">
+   <img src="https://github.com/HackZy01/Images/blob/main/desktop-dark.png" width="420" height="240">
+ </picture>
 
 
 This is .sh script that will compile Elementary OS iso of your choice, don't need to worry about anything it just installs everything it needs by itself and gives you a user friendly menu
