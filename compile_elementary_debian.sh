@@ -38,9 +38,13 @@ Daily builds:
 Stable builds:
 4) Stable 6.1 Jólnir
 
+Build for other platforms
+5) Rasperry Pi 4
+6) Pinebook Pro
+
 Choose an option:  "
-echo -e "\e[1;32mPress 5 to cancel\e[0m"
-#echo -e "\e[32mPress 5 to cancel\e[0m"
+echo -e "\e[1;32mPress 0 to cancel\e[0m"
+#echo -e "\e[32mPress 0 to cancel\e[0m"
     read -r ans
     case $ans in
     1)
@@ -72,6 +76,24 @@ echo -e "\e[1;32mPress 5 to cancel\e[0m"
     /bin/bash -s etc/terraform-stable-azure.conf < build.sh
         ;;
     5)
+        sudo apt install flatpak gnome-software-plugin-flatpak
+        sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+        sudo docker run --privileged -i -v /proc:/proc \
+    -v ${PWD}:/working_dir \
+    -w /working_dir \
+    debian:unstable \
+    ./build-rpi.sh
+        ;;
+    6)
+        sudo apt install flatpak gnome-software-plugin-flatpak
+        sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+        sudo docker run --privileged -i -v /proc:/proc \
+    -v ${PWD}:/working_dir \
+    -w /working_dir \
+    debian:unstable \
+    ./build-pinebookpro.sh
+        ;;
+    0)
         echo "See ya."
         exit 0
         ;;
