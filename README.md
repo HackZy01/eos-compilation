@@ -24,13 +24,16 @@ Tested on:
 
 - Debian based distros: Elementary OS Zorin OS 15 and Linux Mint
 
+# Update info
+- I would love to do an arch based version, but I'm afraid it's not possible, many tries just errored out
+
 # Running
 to run this sript do (terminal in the same directory as script):
 
 ```
-sudo chmod +x compile_elementary_(distro or it's base).sh
+sudo chmod +x compile_elementary_debian.sh
 
-./compile_elementary_(distro or it's base).sh
+./compile_elementary_debian.sh
 ```
 
 
