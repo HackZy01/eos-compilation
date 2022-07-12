@@ -37,5 +37,6 @@ iso should be located in directory like this:
 
 - Docker and Docker.io
 - Git
+- Flatpak (for Raspberry Pi and Pinebook Pro building)
 
 don't worry they will be installed automatically
