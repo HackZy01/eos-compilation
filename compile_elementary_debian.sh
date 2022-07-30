@@ -1,6 +1,21 @@
 #!/bin/bash
 
+log=Log.txt
+
+# create log file or overrite if already present
+printf "Log File - " > $log
+
+# add date to log file
+date >> $log
+
+x=$(( 3 + 1 ))
+
+# append some data to log file
+echo value of x is $x >> $log
+
 clear
+
+echo "Generating logs to Log.txt"
 
 #let's install software-properties-common just to be sure
 sudo apt install software-properties-common -y
