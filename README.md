@@ -4,7 +4,7 @@ Elementary OS compile script
 
 <p align="center"> 
 <img align="center" src="https://img.shields.io/badge/Current%20ElementaryOS%20Stable%20Version-6.1-blue?style=style=flat"> 
-<img align="center" src="https://img.shields.io/badge/Script%20Versionr%20-1.05-blue?style=style=flat"> 
+<img align="center" src="https://img.shields.io/badge/Script%20Version%20-1.05-blue?style=style=flat"> 
 <img align="center" src="https://img.shields.io/badge/Script%20Test%20Version%20-1.06b-orange?style=style=flat">
 </p>
 
@@ -45,7 +45,6 @@ sudo chmod +x compile_elementary_debian.sh
 
 ./compile_elementary_debian.sh
 ```
-
 
 # ISO
 .ISO will take around 2.5gb, be aware that it will take more in process of building.
