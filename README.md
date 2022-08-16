@@ -43,7 +43,7 @@ to run this sript do (terminal in the same directory as script):
 ```
 sudo chmod +x compile_elementary.sh
 
-./compile_elementary_debian.sh
+./compile_elementary.sh
 ```
 
 # ISO
