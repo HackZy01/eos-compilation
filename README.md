@@ -41,7 +41,7 @@ as of 11.07.2022 Elementary OS 7 Horus isn't recommended for daily usage yet
 to run this sript do (terminal in the same directory as script):
 
 ```
-sudo chmod +x compile_elementary_debian.sh
+sudo chmod +x compile_elementary.sh
 
 ./compile_elementary_debian.sh
 ```
