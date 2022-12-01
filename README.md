@@ -1,11 +1,11 @@
 <p align="center"> 
-Elementary OS compile script
+Elementary OS Compilation script
 </p>
 
 <p align="center"> 
 <img align="center" src="https://img.shields.io/badge/Current%20ElementaryOS%20Stable%20Version-6.1-blue?style=style=flat"> 
 <img align="center" src="https://img.shields.io/badge/Script%20Version%20-1.05-blue?style=style=flat"> 
-<img align="center" src="https://img.shields.io/badge/Script%20Test%20Version%20-X-orange?style=style=flat">
+<img align="center" src="https://img.shields.io/badge/Script%20Test%20Version%20-None-red?style=style=flat">
 </p>
 
 <p align="center"> 
@@ -16,7 +16,7 @@ Elementary OS compile script
  </picture
 </p>
 
-This is .sh script that will compile Elementary OS iso of your choice, don't need to worry about anything it just installs everything it needs by itself and gives you a user friendly menu
+Purpose of this shell script is to compile Elementary OS ISO of your choice, in a pretty user friendly way
 
 <p align="center"> 
 <picture>
@@ -26,19 +26,19 @@ This is .sh script that will compile Elementary OS iso of your choice, don't nee
   </picture>
 </p>
 
-This script doesnt't work on Fedora! It might not function properly on arch as it's a very outdated versiom
+The only supported version of this script currently is made for Debian use only
 
 # Note
 as of 11.07.2022 Elementary OS 7 Horus isn't recommended for daily usage yet
 
 # Tested on:
-- Debian based distros: Elementary OS Zorin OS 15 and Linux Mint
+- Debian based distros: Elementary OS, Zorin OS and Linux Mint
 
-# Update info
-- I would love to do an arch based version, but I'm afraid it's not possible, many tries just errored out
+# Arch?
+I'm afraid it's not possible
 
 # Running
-to run this sript do (terminal in the same directory as script):
+To make use of this script run (in the same directory as the script):
 
 ```
 sudo chmod +x compile_elementary.sh
@@ -47,16 +47,15 @@ sudo chmod +x compile_elementary.sh
 ```
 
 # ISO
-.ISO will take around 2.5gb, be aware that it will take more in process of building.
+ISO will take around 2.5gb, be aware that it will take more in process of building.
 
-iso should be located in directory like this:
+ISO should be located inside a directory looking like this
 
 /os/builds/[architecture name]/elementaryos-[version].[date].iso
     
 # Dependiencies
-
 - Docker and Docker.io
 - Git
 - Flatpak (for Raspberry Pi and Pinebook Pro building)
 
-don't worry they will be installed automatically
+Everything will be installed automatically
