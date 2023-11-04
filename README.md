@@ -28,8 +28,8 @@ sudo chmod +x compile_elementary.sh
 ./compile_elementary.sh
 ```
 
-# ISO
-ISO will take around 2.5gb, be aware that it will take more in process of building.
+# ISO File
+It's recommended to have 6GB of Storage for the process, the artifact iSO will take around 2.5GB
 
 ISO should be located inside a directory looking like this
 
