@@ -1,7 +1,7 @@
 <p align="center"> 
    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/elementary/brand/blob/master/logomark-white.png?raw=true" width="400">
-      <source media="(prefers-color-scheme: light)" srcset="https://github.com/elementary/brand/blob/master/logomark-black.png?raw=true" width="400">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/elementary/brand/blob/master/logomark-white.png?raw=true" width="380">
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/elementary/brand/blob/master/logomark-black.png?raw=true" width="380">
       <img src="https://github.com/HackZy01/Images/blob/main/desktop-dark.png" width="420" height="240">
    </picture
 </p>
@@ -36,13 +36,16 @@ It's recommended to have 6GB of Storage for the process, the artifact ISO will t
 ISO should be located inside a directory looking like this
 
 ```/os/builds/[architecture]/elementaryos-[version].[date].iso```
-    
-
 
 ## Note
 as of the 4th of November, 2023
 
 ElementaryOS 8 isn't recommended for daily usage.
+
+
+### Links
+[Elementary OS - Build Scripts](https://github.com/elementary/os)
+
 
 ## Screenshots (as of 2022)
 <p align="left"> 
@@ -52,7 +55,4 @@ ElementaryOS 8 isn't recommended for daily usage.
    <img src="https://github.com/HackZy01/Images/blob/main/desktop-dark.png"
 </picture
 </p>
-
-### Links
-[Elementary OS - Build Scripts](https://github.com/elementary/os)
 
