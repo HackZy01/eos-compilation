@@ -1,14 +1,17 @@
 <p align="center"> 
-<picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/elementary/brand/blob/master/logomark-white.png?raw=true" width="256">
-   <source media="(prefers-color-scheme: light)" srcset="https://github.com/elementary/brand/blob/master/logomark-black.png?raw=true" width="256">
-   <img src="https://github.com/HackZy01/Images/blob/main/desktop-dark.png" width="420" height="240">
-</picture
+   <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/elementary/brand/blob/master/logomark-white.png?raw=true" width="256">
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/elementary/brand/blob/master/logomark-black.png?raw=true" width="256">
+      <img src="https://github.com/HackZy01/Images/blob/main/desktop-dark.png" width="420" height="240">
+   </picture
 </p>
 
 <p align="center"> 
-<img align="center" src="https://img.shields.io/badge/Current%20ElementaryOS%20Stable%20Version-7.1-3689e6?style=style=flat"> 
-<img align="center" src="https://img.shields.io/badge/Script%20Version%20-1.06-a56de2?style=style=flat"> 
+      <Text>
+      <img align="center" src="https://img.shields.io/badge/Script%20Version%20-1.06-a56de2?style=style=flat"> 
+      <img align="center" src="https://img.shields.io/badge/Current%20eOS%20Version-7.1-3689e6?style=style=flat"> 
+   </Text>
+
 </p>
 
 # Compatibility:
