@@ -9,7 +9,6 @@
 </p>
 
 <p align="center"> 
-<img src=https://elementary.io/images/icons/places/128/distributor-logo.svg  width="250" height="251"> <picture>
    <img src=https://elementary.io/images/screenshots/desktop.jpg width="420" height="240">
  </picture
 </p>
