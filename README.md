@@ -43,7 +43,7 @@ as of the 4th of November, 2023
 ElementaryOS 8 isn't recommended for daily usage.
 
 
-### Links
+## Links
 [Elementary OS - Build Scripts](https://github.com/elementary/os)
 
 
