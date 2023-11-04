@@ -24,8 +24,7 @@ curl -fsSL https://raw.githubusercontent.com/HackZy01/Elementary-OS-compile-scri
 ```
 2.
 ```
-sudo chmod +x elementary.sh
-./elementary.sh
+sudo chmod +x elementary.sh && ./elementary.sh
 ```
 # Dependiencies
 **Installed automatically upon running**
