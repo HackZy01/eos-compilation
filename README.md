@@ -41,3 +41,11 @@ as of the 4th of November, 2023
 
 ElementaryOS 8 isn't recommended for daily usage.
 
+### Screenshots (as of 2022)
+<p align="left"> 
+<picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/HackZy01/Images/blob/main/eos-compile-screenshot-dark.png?raw=true">
+   <source media="(prefers-color-scheme: light)" srcset="https://github.com/HackZy01/Images/blob/main/eos-compile-screenshot-light.png?raw=true">
+   <img src="https://github.com/HackZy01/Images/blob/main/desktop-dark.png"
+</picture
+</p>
