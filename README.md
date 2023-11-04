@@ -19,10 +19,10 @@ Debian / Ubuntu-based Distros
   
 # Usage
 ```
-sudo chmod +x compile_elementary.sh
+sudo chmod +x elementary.sh
 ```
 ```
-./compile_elementary.sh
+./elementary.sh
 ```
 # Dependiencies
 **Installed automatically upon running**
