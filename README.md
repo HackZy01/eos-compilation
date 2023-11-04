@@ -36,12 +36,12 @@ ISO should be located inside a directory looking like this
     
 
 
-# Note
+## Note
 as of the 4th of November, 2023
 
 ElementaryOS 8 isn't recommended for daily usage.
 
-### Screenshots (as of 2022)
+## Screenshots (as of 2022)
 <p align="left"> 
 <picture>
    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/HackZy01/Images/blob/main/eos-compile-screenshot-dark.png?raw=true">
@@ -49,3 +49,7 @@ ElementaryOS 8 isn't recommended for daily usage.
    <img src="https://github.com/HackZy01/Images/blob/main/desktop-dark.png"
 </picture
 </p>
+
+### Links
+[Elementary OS - Build Scripts](https://github.com/elementary/os)
+
