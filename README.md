@@ -18,11 +18,11 @@
 Debian / Ubuntu-based Distros
   
 # Usage
-1.
+Method 1.
 ```
 curl -fsSL https://raw.githubusercontent.com/HackZy01/Elementary-OS-compile-script/main/elementary.sh | sh
 ```
-2.
+Method 2.
 ```
 sudo chmod +x elementary.sh && ./elementary.sh
 ```
