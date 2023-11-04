@@ -19,16 +19,17 @@ versionselect() {
 Select the version you want to build
 
 Daily builds:
-1) Daily 5.1 Hera
-2) Daily 6.1 Jólnir
-3) Daily 7.0 Horus
+1) Daily 5.1 "Hera"
+2) Daily 6.1 "Jólnir"
+3) Daily 7.1 "Horus"
+4) Daily 8.0 "next"
 
 Stable builds:
-4) Stable 6.1 Jólnir
+5) Stable 7.1 "Horus"
 
 Build for other platforms
-5) Rasperry Pi 4
-6) Pinebook Pro
+6) Rasperry Pi 4
+7) Pinebook Pro
 
 Choose an option:  "
 echo -e "\e[1;32mPress 0 to cancel\e[0m"
@@ -53,16 +54,23 @@ echo -e "\e[1;32mPress 0 to cancel\e[0m"
     -v ${PWD}:/working_dir \
     -w /working_dir \
     debian:latest \
-    /bin/bash -s etc/terraform-daily-7.0-azure.conf < build.sh
+    /bin/bash -s etc/terraform-daily-7.1-azure.conf < build.sh
         ;;
     4)
         sudo docker run --privileged -i -v /proc:/proc \
     -v ${PWD}:/working_dir \
     -w /working_dir \
     debian:latest \
-    /bin/bash -s etc/terraform-stable-azure.conf < build.sh
+    /bin/bash -s etc/terraform-daily-next-azure.conf < build.sh
         ;;
     5)
+        sudo docker run --privileged -i -v /proc:/proc \
+    -v ${PWD}:/working_dir \
+    -w /working_dir \
+    debian:latest \
+    /bin/bash -s etc/terraform-stable-azure.conf < build.sh
+        ;;
+    6)
         sudo apt install flatpak gnome-software-plugin-flatpak
         sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
         sudo docker run --privileged -i -v /proc:/proc \
@@ -71,7 +79,7 @@ echo -e "\e[1;32mPress 0 to cancel\e[0m"
     debian:unstable \
     ./build-rpi.sh
         ;;
-    6)
+    7)
         sudo apt install flatpak gnome-software-plugin-flatpak
         sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
         sudo docker run --privileged -i -v /proc:/proc \
@@ -81,11 +89,11 @@ echo -e "\e[1;32mPress 0 to cancel\e[0m"
     ./build-pinebookpro.sh
         ;;
     0)
-        echo "See ya."
+        echo "Goodbye."
         exit 0
         ;;
     *)
-        echo "Invalid option. Try again"
+        echo "Invalid choice."
         exit 1
         ;;
     esac
