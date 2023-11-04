@@ -1,12 +1,11 @@
 <p align="center"> 
-<img align="center" src="https://img.shields.io/badge/Current%20ElementaryOS%20Stable%20Version-6.1-blue?style=style=flat"> 
-<img align="center" src="https://img.shields.io/badge/Script%20Version%20-1.05-blue?style=style=flat"> 
-<img align="center" src="https://img.shields.io/badge/Script%20Test%20Version%20-None-red?style=style=flat">
+<img align="center" src="https://img.shields.io/badge/Current%20ElementaryOS%20Stable%20Version-7.1-blue?style=style=flat"> 
+<img align="center" src="https://img.shields.io/badge/Script%20Version%20-1.06-blue?style=style=flat"> 
 </p>
 
 <p align="center"> 
 <img src=https://elementary.io/images/icons/places/128/distributor-logo.svg  width="250" height="251"> <picture>
-   <img src="https://elementary.io/images/screenshots/desktop.jpg" width="420" height="240">
+   <img src=https://elementary.io/images/screenshots/desktop.jpg width="420" height="240">
  </picture
 </p>
 
