@@ -1,18 +1,20 @@
-<p align="center"> 
-   <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/elementary/brand/blob/master/logomark-white.png?raw=true" width="380">
-      <source media="(prefers-color-scheme: light)" srcset="https://github.com/elementary/brand/blob/master/logomark-black.png?raw=true" width="380">
-      <img src="https://github.com/HackZy01/Images/blob/main/desktop-dark.png" width="420" height="240">
-   </picture
-</p>
+<div align="center">
+  <a href="https://elementary.io" align="center">
+    <center align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/elementary/brand/master/logomark-white.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/elementary/brand/master/logomark-black.png">
+  <img src="https://raw.githubusercontent.com/elementary/brand/master/logomark-black.png" alt="elementary" align="center" height="200">
+</picture>
+    </center>
+  </a>
+  <br>
+  <h1 align="center"><center>Easy elementaryOS Build Script</center></h1>
+  <h3 align="center"> <center> <img align="center" src="https://img.shields.io/badge/eOS-7.1-3689e6?style=style=flat"> </center> <center> <img align="center" src="https://img.shields.io/badge/Script-1.1-a56de2?style=style=flat"> </center></h3>
+  <br>
+  <br>
+</div>
 
-<p align="center"> 
-      <Text>
-      <img align="center" src="https://img.shields.io/badge/Script%20Version%20-1.06-a56de2?style=style=flat"> 
-      <img align="center" src="https://img.shields.io/badge/Current%20eOS%20Version-7.1-3689e6?style=style=flat"> 
-   </Text>
-
-</p>
 
 # Compatibility:
 Debian / Ubuntu-based Distros
