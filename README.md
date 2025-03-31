@@ -4,13 +4,13 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/elementary/brand/master/logomark-white.png">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/elementary/brand/master/logomark-black.png">
-  <img src="https://raw.githubusercontent.com/elementary/brand/master/logomark-black.png" alt="elementary" align="center" height="200">
+  <img src="https://raw.githubusercontent.com/elementary/brand/master/logomark-black.png" alt="elementary" align="center" height="150">
 </picture>
     </center>
   </a>
   <br>
   <h1 align="center"><center>Easy elementaryOS Build Script</center></h1>
-  <h3 align="center"> <center> <img align="center" src="https://img.shields.io/badge/eOS-7.1-3689e6?style=style=flat"> </center> <center> <img align="center" src="https://img.shields.io/badge/Script-1.1-a56de2?style=style=flat"> </center></h3>
+  <h3 align="center"> <center> <img align="center" src="https://img.shields.io/badge/eOS-8.0-3689e6?style=style=flat"> </center> <center> <img align="center" src="https://img.shields.io/badge/Script-1.2-a56de2?style=style=flat"> </center></h3>
   <br>
   <br>
 </div>
