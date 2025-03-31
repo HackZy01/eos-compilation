@@ -22,10 +22,10 @@ Daily builds:
 1) Daily 5.1 "Hera"
 2) Daily 6.1 "Jólnir"
 3) Daily 7.1 "Horus"
-4) Daily 8.0 "next"
+4) Daily 8.0 "Noble"
 
 Stable builds:
-5) Stable 7.1 "Horus"
+5) Stable 8.0 "Noble"
 
 Build for other platforms
 6) Rasperry Pi 4
@@ -61,14 +61,14 @@ echo -e "\e[1;32mPress 0 to cancel\e[0m"
     -v ${PWD}:/working_dir \
     -w /working_dir \
     debian:latest \
-    /bin/bash -s etc/terraform-daily-next-azure.conf < build.sh
+    /bin/bash -s etc/terraform-daily-8.0-azure.conf < build.sh
         ;;
     5)
         sudo docker run --privileged -i -v /proc:/proc \
     -v ${PWD}:/working_dir \
     -w /working_dir \
     debian:latest \
-    /bin/bash -s etc/terraform-stable-azure.conf < build.sh
+    /bin/bash -s etc/terraform.conf < build.sh
         ;;
     6)
         sudo apt install flatpak gnome-software-plugin-flatpak
